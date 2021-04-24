@@ -4,27 +4,27 @@ import time
 
 
 def Bai1():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.get("http://practice.automationtesting.in/")
     time.sleep(2)
     driver.quit()
 
 def Bai2():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.maximize_window()
     driver.get("http://practice.automationtesting.in/")
     time.sleep(2)
     driver.quit()
 
 def Bai3():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.set_window_size(1200, 768)
     driver.get("http://practice.automationtesting.in/")
     time.sleep(2)
     driver.quit()
 
 def Bai4_va_5():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.maximize_window()
     driver.get("http://practice.automationtesting.in/")
     print(driver.title)
@@ -33,7 +33,7 @@ def Bai4_va_5():
     driver.quit()
 
 def Bai6():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.maximize_window()
     driver.get("http://practice.automationtesting.in/")
     print(driver.page_source)
@@ -41,7 +41,7 @@ def Bai6():
     driver.quit()
 
 def Bai7():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.maximize_window()
     driver.get("http://practice.automationtesting.in/")
 
@@ -61,7 +61,7 @@ def Bai7():
     driver.quit()
 
 def Bai8():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.maximize_window()
     driver.get("https://the-internet.herokuapp.com")
 
@@ -82,7 +82,7 @@ def Bai8():
     driver.quit()
 
 def Bai9():
-    driver = webdriver.Chrome(executable_path='E:/SOURCE-CODE/JAVA/Selenium-test/drive/chromedriver.exe')
+    driver = webdriver.Chrome(executable_path='./drive/chromedriver.exe')
     driver.maximize_window()
     driver.get("https://itmscoaching.herokuapp.com/form")
 
