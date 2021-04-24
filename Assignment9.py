@@ -118,6 +118,10 @@ if __name__ == "__main__":
     # Bai1()
     # Bai2()
     # Bai3()
+    # Bai4_va_5()
+    # Bai6()
+    # Bai7()
+    # Bai8()
     Bai9()
         
 
